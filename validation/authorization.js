@@ -1,7 +1,8 @@
 const jwt=require('jsonwebtoken')
 const SUPERADMIN=4;
 const ADMIN=2
-const User=1
+const User=1;
+//users role
 
 
 const minimumPermissionLevelAcquired = (required_permission_level) => {
